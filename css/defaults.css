@@ -1,0 +1,32 @@
+:root {
+	--white: #ffffff;
+	--off-white: #faf9f6;
+	--black: #000000;
+	--matte-black: #28282b;
+	--royal-main: #740874;
+	--royal-dark: #680868;
+	--royal-light: #820882;
+	--gold-main: #dbb658;
+	--gold-dark: #af9146;
+	--gold-light: #e2c479;
+	--blue-main: #0030f9;
+	--blue-dark: #0426ad;
+	--blue-light: #244ef9;
+	--blue-super-dark: #010f45;
+	--midnight-blue: #191970;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: fira-code;
+}
+
+a,
+li {
+	text-decoration: none;
+}
+
+h1 {
+	color: red;
+}
