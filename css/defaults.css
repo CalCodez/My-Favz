@@ -33,7 +33,7 @@ html {
 body {
 	display: flex;
 	flex-direction: column;
-	background: radial-gradient(var(--blue-main), var(--blue-dark));
+	background: radial-gradient(var(--blue-dark), var(--blue-super-dark));
 	justify-content: center;
 	align-items: center;
 	width: 99vw;
@@ -63,6 +63,15 @@ li {
 	background-color: var(--blue-super-dark);
 }
 
+.btn:hover {
+	transform: scale(1.08);
+	color: var(--gold-dark);
+}
+
+.btn:hover a {
+	color: var(--gold-dark);
+}
+
 .btn a {
 	color: var(--blue-light);
 	font-size: 0.8em;
@@ -75,6 +84,13 @@ li {
 h1 {
 	color: var(--blue-super-dark);
 	text-shadow: 3px 1px 3px var(--gold-light);
+}
+
+h2 {
+	color: var(--gold-dark);
+	text-shadow: 3px 3px 3px var(--blue-super-dark);
+	font-size: 50px;
+	margin: 20px;
 }
 
 h3 {
