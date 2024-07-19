@@ -76,3 +76,7 @@ h1 {
 	color: var(--blue-super-dark);
 	text-shadow: 3px 1px 3px var(--gold-light);
 }
+
+h3 {
+	color: var(--gold-dark);
+}
