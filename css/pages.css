@@ -2,7 +2,7 @@
 .topic-section {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 80%;
 	margin: 20px;
 	height: auto;
 	padding: 50px;
@@ -60,4 +60,17 @@
 	margin-left: 40px;
 	line-height: 2;
 	font-weight: 600;
+}
+
+/* **Not Favz Styles */
+
+.notfvz {
+	border-color: var(--negative-link);
+}
+.notFvz .topic-container {
+	box-shadow: 4px 4px 10px 5px var(--negative-link);
+}
+
+.notFvz .topic-image-container img {
+	box-shadow: 2px 2px 10px 2px var(--negative-link);
 }
