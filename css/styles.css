@@ -148,7 +148,7 @@ td {
 	justify-content: center;
 	width: 100%;
 	height: 5%;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: var(--gold-dark);
 }
 
@@ -166,5 +166,11 @@ td {
 .footer-image-container {
 	height: 250px;
 	width: 250px;
-	outline: 1px solid yellow;
+	border-radius: 50%;
+	border: 3px groove var(--gold-dark);
+}
+.footer-image-container img {
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 1px -1px 8px 10px var(--blue-light);
 }

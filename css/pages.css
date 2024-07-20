@@ -1,0 +1,13 @@
+/* **Common Pages Styles */
+.topic-section {
+	width: 100%;
+	margin: 20px;
+	height: auto;
+	outline: 1px solid yellow;
+}
+
+.topic-container .container {
+	width: 100%;
+	height: auto;
+	outline: 1px solid white;
+}

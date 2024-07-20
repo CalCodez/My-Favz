@@ -21,7 +21,8 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: fira-code;
+	font-family: 'Fira Code', monospace;
+	font-weight: 300;
 }
 
 html {
@@ -58,7 +59,7 @@ li {
 	box-sizing: border-box;
 	place-content: center;
 	place-items: center;
-	width: 80px;
+	width: 100px;
 	height: 40px;
 	border-radius: 20px;
 	border: 2px ridge var(--gold-main);
@@ -66,7 +67,7 @@ li {
 }
 
 footer .container .btn {
-	width: 100px;
+	width: 120px;
 	box-shadow: -1px -1px 7px 1px var(--blue-light);
 }
 
@@ -123,4 +124,5 @@ footer {
 	margin-top: 20px;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	padding: 40px;
 }
