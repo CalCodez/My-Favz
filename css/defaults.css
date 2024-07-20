@@ -13,8 +13,9 @@
 	--blue-dark: #0426ad;
 	--blue-light: #244ef9;
 	--blue-super-dark: #010f45;
+	--blue-super-dark-transparent: #00092b6f;
 	--midnight-blue: #191970;
-	--postive-link: #ec0000;
+	--positive-link: #ec0000;
 	--negative-link: #2f2fff;
 }
 
@@ -29,7 +30,7 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 8px;
+	padding: 10px;
 	background-color: var(--blue-super-dark);
 }
 
@@ -39,8 +40,8 @@ body {
 	background: radial-gradient(var(--blue-dark), var(--blue-super-dark));
 	justify-content: center;
 	align-items: center;
-	width: 99vw;
-	padding: 8px;
+	width: 80vw;
+	padding: 15px;
 }
 
 .container {
@@ -108,11 +109,18 @@ h3 {
 }
 
 .positive-link {
-	color: var(--postive-link);
+	color: var(--positive-link);
 }
 
 .negative-link {
 	color: var(--negative-link);
+}
+.wrap {
+	flex-wrap: wrap;
+}
+
+.flip-wrap {
+	flex-wrap: wrap-reverse;
 }
 
 footer {
