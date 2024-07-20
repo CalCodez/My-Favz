@@ -30,6 +30,8 @@
 	width: 100%;
 	display: flex;
 	height: 10%;
+	height: auto;
+	justify-content: center;
 }
 
 .card-section {
@@ -117,7 +119,7 @@ table th {
 	font-size: 20px;
 	line-height: 60px;
 	border: 1px solid var(--gold-dark);
-	border-radius: 8px;
+	border-radius: 1px;
 }
 
 table h2 {
@@ -139,4 +141,30 @@ td:hover {
 
 td {
 	line-height: 50px;
+}
+
+.footer-header-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 5%;
+	font-size: 1.3em;
+	color: var(--gold-dark);
+}
+
+.reference-container,
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid var(--gold-dark);
+	width: 200px;
+	height: 250px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-image-container {
+	height: 250px;
+	width: 250px;
+	outline: 1px solid yellow;
 }
