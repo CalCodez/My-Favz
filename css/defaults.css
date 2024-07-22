@@ -30,7 +30,7 @@ html {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px;
+	padding: 20px 10px 10px 10px;
 	background-color: var(--blue-super-dark);
 }
 
@@ -40,8 +40,8 @@ body {
 	background: radial-gradient(var(--blue-dark), var(--blue-super-dark));
 	justify-content: center;
 	align-items: center;
-	width: 80vw;
-	padding: 15px;
+	width: 90vw;
+	/*padding: 15px;*/
 }
 
 .container {
@@ -142,5 +142,37 @@ footer {
 	margin-top: 20px;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	padding: 40px;
+	padding: 50px 0;
+	gap: 40px;
+}
+
+.footer-header-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 5%;
+	font-size: 1em;
+	color: var(--gold-dark);
+}
+
+.reference-container,
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	height: 250px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-image-container {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border: 3px groove var(--gold-dark);
+}
+.footer-image-container img {
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 1px -1px 15px 8px var(--gold-dark);
 }
