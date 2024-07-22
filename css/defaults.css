@@ -125,6 +125,20 @@ h3 {
 .negative-link {
 	color: var(--negative-link);
 }
+
+.th-label {
+	font-weight: 600;
+	font-size: 1.8em;
+	text-shadow: 2px 2px 2px var(--negative-link);
+	outline: 1px solid yellow;
+}
+
+.th-label.negative-link {
+	text-shadow: 2px 2px 2px var(--positive-link);
+	font-weight: 600;
+	font-size: 1.8em;
+}
+
 .wrap {
 	flex-wrap: wrap;
 }
