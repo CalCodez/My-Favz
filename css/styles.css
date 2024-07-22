@@ -92,7 +92,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	outline: 1px solid yellow;
 }
 
 .table-header {
@@ -132,6 +131,12 @@ tr {
 	text-align: center;
 	width: 50%;
 	border-radius: 8px;
+}
+
+tr td h4 {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-weight: 700;
 }
 
 td:hover {

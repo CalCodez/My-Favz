@@ -108,9 +108,10 @@ h1 {
 h2 {
 	color: var(--blue-super-dark);
 	text-shadow: 1px 1px 4px var(--gold-light);
-	font-size: 50px;
+	font-size: 4em;
+	font-weight: 450;
 	margin: 20px;
-	text-shadow: 1px 1px 4px var(--blue-light);
+	text-shadow: 1px 1px 4px var(--gold-light);
 }
 
 h3 {
